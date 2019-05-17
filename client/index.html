@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>chat</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/toast.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="container">
+        <div class="left">
+            <div class="top">
+            </div>
+            <ul class="people">
+
+            </ul>
+        </div>
+        <div class="right">
+            <div class="top"><span class="name"></span></div>
+                <span id="content">
+                </span>
+            <div class="write">
+                <input type="text" id="send_val">
+                <a href="javascript:;" class="write-link send" id="send"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/socket.js"></script>
+<script src="./js/toast.js"></script>
+</body>
+</html>
